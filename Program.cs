@@ -45,6 +45,36 @@ namespace Aula23
             }
 
 
+            System.Console.WriteLine();
+            List<Cartao> cartao = new List<Cartao>();
+            //Adicionar cartões
+            cartao.Add(new Cartao("Fernanda Carvalho", 248657913, "Visa", 12, 666));
+            cartao.Add(new Cartao("Fernando Carvalho", 123456789, "Mastercard", 08, 999));
+            cartao.Add(new Cartao("Adnanref Carvalho", 987654321, "Mastercard", 10, 666));
+            cartao.Add(new Cartao("Odnanref Carvalho", 147258369, "Visa", 05, 777));
+
+            //Mostrar Cartões
+            System.Console.WriteLine("Cartões Cadastrados: ");
+            foreach(Cartao c in cartao){
+                Console.WriteLine($"{c.Titular} {c.Numero} {c.Bandeira} {c.Vencimento} {c.CVV}");
+            }
+
+             //Deletar com expressão lambda
+            cartao.RemoveAll(x => x.Bandeira == "Visa");
+            //Tiramos todos os cartões Visa
+
+            System.Console.WriteLine();
+            System.Console.WriteLine("Cartões Cadastrados Alterados: ");
+            foreach(Cartao c in cartao){
+                Console.WriteLine($"{c.Titular} {c.Numero} {c.Bandeira} {c.Vencimento} {c.CVV}");
+            }
+
+
+
+
+
+
+
 
         }
     }
