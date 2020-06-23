@@ -1,0 +1,13 @@
+C:\Users\fernanda1234\Desktop\Aula23\obj\Debug\netcoreapp3.1\Aula23.csprojAssemblyReference.cache
+C:\Users\fernanda1234\Desktop\Aula23\obj\Debug\netcoreapp3.1\Aula23.csproj.CoreCompileInputs.cache
+C:\Users\fernanda1234\Desktop\Aula23\obj\Debug\netcoreapp3.1\Aula23.AssemblyInfoInputs.cache
+C:\Users\fernanda1234\Desktop\Aula23\obj\Debug\netcoreapp3.1\Aula23.AssemblyInfo.cs
+C:\Users\fernanda1234\Desktop\Aula23\bin\Debug\netcoreapp3.1\Aula23.exe
+C:\Users\fernanda1234\Desktop\Aula23\bin\Debug\netcoreapp3.1\Aula23.deps.json
+C:\Users\fernanda1234\Desktop\Aula23\bin\Debug\netcoreapp3.1\Aula23.runtimeconfig.json
+C:\Users\fernanda1234\Desktop\Aula23\bin\Debug\netcoreapp3.1\Aula23.runtimeconfig.dev.json
+C:\Users\fernanda1234\Desktop\Aula23\bin\Debug\netcoreapp3.1\Aula23.dll
+C:\Users\fernanda1234\Desktop\Aula23\bin\Debug\netcoreapp3.1\Aula23.pdb
+C:\Users\fernanda1234\Desktop\Aula23\obj\Debug\netcoreapp3.1\Aula23.dll
+C:\Users\fernanda1234\Desktop\Aula23\obj\Debug\netcoreapp3.1\Aula23.pdb
+C:\Users\fernanda1234\Desktop\Aula23\obj\Debug\netcoreapp3.1\Aula23.genruntimeconfig.cache

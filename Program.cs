@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+
 
 namespace Aula23
 {
@@ -19,14 +21,14 @@ namespace Aula23
 
             //Adicionamos produtos através de intâncias ccom construtores
             produtos.Add(new Produto(2, "Apple Watch", 3250.99f));
-            produtos.Add(new Produto(3, "Xiaomi", 3250.99f));
-            produtos.Add(new Produto(4, "Galaxy A10", 3250.99f));
-            produtos.Add(new Produto(5, "Motorola G8", 3250.99f));
+            produtos.Add(new Produto(3, "Xiaomi", 3000.99f));
+            produtos.Add(new Produto(4, "Galaxy A10", 2700.99f));
+            produtos.Add(new Produto(5, "Motorola G8", 2000.98f));
 
             //Mostrar produtos 
-            foreach(Produto p in produtos){
                 System.Console.WriteLine("Produtos e preços no estoque:");
-                Console.WriteLine($"{p.Nome} - R$ {P.Preco}");
+            foreach(Produto p in produtos){
+                Console.WriteLine($"{p.Nome} - R$ {p.Preco}");
             }
 
             //Deletar com índice de Array
@@ -37,12 +39,12 @@ namespace Aula23
             produtos.RemoveAll(x => x.Nome == "Apple Watch");
             //Tiramos Apple Watch
 
-            Console.WriteLine("\nLista Alterada: ");
+            Console.WriteLine("\nLista alterada do estoque: ");
             foreach(Produto p in produtos){
             Console.WriteLine($"{p.Nome} - R$ {p.Preco}");
             }
 
-            
+
 
         }
     }
